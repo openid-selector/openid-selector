@@ -2,7 +2,7 @@
 # quick hack to replicate the functionality of generate-sprite.js on a linux machine.
 # released under the BSD license below
 #
-# Copyright (c) 2010, Yuval Levy http://www.photopla.net/
+# Copyright (c) 2010, Yuval Levy
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -63,7 +63,7 @@ LARGECMD="${LARGECMD} -tile ${i}x1 -geometry 100x60>+0+0 large.bmp"
 while read a
 do
   SMALLCMD="${SMALLCMD} images.small/${a}.ico.png"
-  i=$((i+1)) 
+  i=$((i+1))
 done < tmp.txt
 SMALLCMD="${SMALLCMD} -tile ${i}x1 -geometry 16x16+4+4 small.bmp"
 

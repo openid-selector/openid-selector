@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
-
-#	Simple OpenID Plugin
-#	http://code.google.com/p/openid-selector/
-#	
-#	This code is licenced under the New BSD License.
+#	Simple OpenID Selector
+#	http://openid-selector.github.io/
+#
+#	This code is licensed under the New BSD (3-Clause) License.
 #
 #
 # Requires rubygems (tested with 1.3.7) therubyracer (tested with 0.7.5),

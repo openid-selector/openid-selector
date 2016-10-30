@@ -1,8 +1,8 @@
 /*
-	Simple OpenID Plugin
-	http://code.google.com/p/openid-selector/
-	
-	This code is licensed under the New BSD License.
+	Simple OpenID Selector
+	http://openid-selector.github.io/
+
+	This code is licensed under the New BSD (3-Clause) License.
 */
 
 function exec(cmd) {
@@ -39,7 +39,7 @@ if (openid.locale != locale) {
 	WScript.Quit(-1);
 }
 if (openid.locale != openid.sprite) {
-	WScript.Echo('error: ' + openid.locale + ' localization is reusing sprite from ' + openid.sprite 
+	WScript.Echo('error: ' + openid.locale + ' localization is reusing sprite from ' + openid.sprite
 			+ ' localization. refresh sprite on original localization or don\'t reuse the sprite');
 	WScript.Quit(-1);
 }
